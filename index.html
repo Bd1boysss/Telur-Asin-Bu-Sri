@@ -366,6 +366,72 @@
       .stat-divider { display: none; }
       .stat-item { min-width: 45%; }
     }
+
+    /* ===== MOBILE RESPONSIVE ===== */
+    @media (max-width: 768px) {
+      .hero-inner { grid-template-columns: 1fr !important; text-align: center; }
+      .hero-right {
+        display: flex !important;
+        justify-content: center;
+        margin-top: 2rem;
+      }
+      .egg-circle-img {
+        width: 100% !important;
+        height: auto !important;
+        border-radius: 18px !important;
+        max-width: 360px;
+      }
+      .egg-circle-img img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: contain !important;
+        display: block;
+      }
+      .hero-badges-row { justify-content: center; }
+      .cta-group { flex-direction: column; align-items: stretch; gap: .7rem; }
+      .btn { width: 100%; justify-content: center; }
+      .wa-big { display: flex; width: 100%; justify-content: center; box-sizing: border-box; }
+      .tiktok-link { display: flex; width: 100%; justify-content: center; margin-left: 0; margin-top: .7rem; box-sizing: border-box; }
+    }
+
+    @media (max-width: 480px) {
+      .hero { padding: 3rem 1rem 2.5rem; }
+      .hero-badge { font-size: .68rem; padding: .3rem .8rem; }
+      .hero-title { font-size: 1.75rem; }
+      .hero-brand { font-size: 2.8rem; -webkit-text-stroke: 2px var(--cream-dark); }
+      .hero-tagline { font-size: .88rem; padding: .35rem 1rem; }
+      .badge-pill { font-size: .75rem; padding: .3rem .75rem; }
+      .stats-section { padding: 1.8rem .8rem; }
+      .stat-item { min-width: 45%; padding: .7rem .4rem; }
+      .stat-number { font-size: 1.6rem; }
+      .stat-label { font-size: .68rem; }
+      .stat-divider { display: none; }
+      .section { padding: 2.8rem 1rem; }
+      .section-title { font-size: 1.45rem; margin-bottom: 1.6rem; }
+      .feature-grid { grid-template-columns: 1fr 1fr; gap: .8rem; }
+      .feature-card { padding: 1.1rem .9rem; }
+      .feature-icon { width: 40px; height: 40px; font-size: 1.1rem; }
+      .feature-title { font-size: .88rem; }
+      .feature-desc { font-size: .78rem; }
+      .enak-section { padding: 2rem 1rem; }
+      .enak-grid { gap: .6rem; }
+      .enak-item { min-width: 58px; padding: .65rem .7rem; }
+      .enak-item .ico { font-size: 1.3rem; }
+      .enak-item .lbl { font-size: .65rem; }
+      .produk-section { padding: 2.8rem 1rem; }
+      .produk-grid { grid-template-columns: 1fr !important; max-width: 340px !important; margin-left: auto !important; margin-right: auto !important; }
+      .produk-name { font-size: 1.05rem; }
+      .produk-price { font-size: 1.25rem; }
+      .testi-grid { grid-template-columns: 1fr; gap: .9rem; margin-top: 1.6rem; }
+      .testi-text { font-size: .84rem; }
+      .cara-section { padding: 2.8rem 1rem; }
+      .steps { grid-template-columns: 1fr; gap: 1.4rem; }
+      .cta-bottom { padding: 2.8rem 1rem; }
+      .cta-bottom h2 { font-size: 1.55rem; }
+      .cta-bottom p { font-size: .88rem; margin-bottom: 1.5rem; }
+      footer { padding: 1.5rem 1rem; font-size: .78rem; }
+      .float-wa { width: 52px; height: 52px; bottom: 1rem; right: 1rem; }
+    }
   </style>
 </head>
 <body>
